@@ -1,6 +1,6 @@
-package validation;
+package LabAssiAsseProjectV02.validation;
 
-import domain.Tema;
+import LabAssiAsseProjectV02.domain.Tema;
 
 public class TemaValidator implements Validator<Tema> {
 

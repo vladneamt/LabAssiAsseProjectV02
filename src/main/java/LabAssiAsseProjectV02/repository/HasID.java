@@ -1,4 +1,4 @@
-package repository;
+package LabAssiAsseProjectV02.repository;
 
 public interface HasID<ID> {
 

@@ -1,6 +1,6 @@
-package repository;
+package LabAssiAsseProjectV02.repository;
 
-import domain.Nota;
+import LabAssiAsseProjectV02.domain.Nota;
 import java.time.LocalDate;
 
 public class NotaFileRepository extends AbstractFileRepository<String, Nota> {

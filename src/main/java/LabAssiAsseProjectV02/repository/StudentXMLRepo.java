@@ -1,6 +1,6 @@
-package repository;
+package LabAssiAsseProjectV02.repository;
 
-import domain.Student;
+import LabAssiAsseProjectV02.domain.Student;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;

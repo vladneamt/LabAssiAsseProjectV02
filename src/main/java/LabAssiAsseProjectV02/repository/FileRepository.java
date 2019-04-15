@@ -1,4 +1,4 @@
-package repository;
+package LabAssiAsseProjectV02.repository;
 
 /**
  * CRUD operations file repository interface

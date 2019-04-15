@@ -1,17 +1,17 @@
-package app;
+package LabAssiAsseProjectV02.app;
 
 
-import repository.NotaFileRepository;
-import repository.StudentFileRepository;
-import repository.StudentXMLRepo;
-import repository.TemaXMLRepo;
-import repository.NotaXMLRepo;
-import repository.TemaFileRepository;
-import service.Service;
-import validation.NotaValidator;
-import validation.StudentValidator;
-import validation.TemaValidator;
-import view.UI;
+import LabAssiAsseProjectV02.repository.NotaFileRepository;
+import LabAssiAsseProjectV02.repository.StudentFileRepository;
+import LabAssiAsseProjectV02.repository.StudentXMLRepo;
+import LabAssiAsseProjectV02.repository.TemaXMLRepo;
+import LabAssiAsseProjectV02.repository.NotaXMLRepo;
+import LabAssiAsseProjectV02.repository.TemaFileRepository;
+import LabAssiAsseProjectV02.service.Service;
+import LabAssiAsseProjectV02.validation.NotaValidator;
+import LabAssiAsseProjectV02.validation.StudentValidator;
+import LabAssiAsseProjectV02.validation.TemaValidator;
+import LabAssiAsseProjectV02.view.UI;
 
 
 

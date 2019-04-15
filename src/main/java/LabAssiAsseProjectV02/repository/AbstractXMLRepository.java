@@ -1,7 +1,7 @@
-package repository;
+package LabAssiAsseProjectV02.repository;
 
-import domain.Student;
-import validation.ValidationException;
+import LabAssiAsseProjectV02.domain.Student;
+import LabAssiAsseProjectV02.validation.ValidationException;
 import java.io.*;
 import java.util.Optional;
 

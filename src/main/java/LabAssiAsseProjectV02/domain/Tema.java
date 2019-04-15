@@ -1,7 +1,7 @@
-package domain;
+package LabAssiAsseProjectV02.domain;
 
 
-import repository.HasID;
+import LabAssiAsseProjectV02.repository.HasID;
 
 
 public class Tema implements HasID<String> {

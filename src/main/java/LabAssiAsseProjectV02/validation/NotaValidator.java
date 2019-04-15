@@ -1,10 +1,10 @@
-package validation;
+package LabAssiAsseProjectV02.validation;
 
 
-import domain.Nota;
-import domain.Student;
-import domain.Tema;
-import repository.*;
+import LabAssiAsseProjectV02.domain.Nota;
+import LabAssiAsseProjectV02.domain.Student;
+import LabAssiAsseProjectV02.domain.Tema;
+import LabAssiAsseProjectV02.repository.*;
 
 public class NotaValidator implements Validator<Nota> {
     private StudentXMLRepo studentFileRepository;

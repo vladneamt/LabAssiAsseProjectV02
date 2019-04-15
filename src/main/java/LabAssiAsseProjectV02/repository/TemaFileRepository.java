@@ -1,6 +1,6 @@
-package repository;
+package LabAssiAsseProjectV02.repository;
 
-import domain.Tema;
+import LabAssiAsseProjectV02.domain.Tema;
 
 public class TemaFileRepository extends AbstractFileRepository<String, Tema> {
 

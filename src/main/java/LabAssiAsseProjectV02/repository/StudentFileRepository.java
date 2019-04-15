@@ -1,6 +1,6 @@
-package repository;
+package LabAssiAsseProjectV02.repository;
 
-import domain.Student;
+import LabAssiAsseProjectV02.domain.Student;
 
 public class StudentFileRepository extends AbstractFileRepository<String, Student> {
 

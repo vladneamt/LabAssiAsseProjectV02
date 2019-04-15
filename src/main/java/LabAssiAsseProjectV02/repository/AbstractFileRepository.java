@@ -1,6 +1,6 @@
-package repository;
+package LabAssiAsseProjectV02.repository;
 
-import validation.ValidationException;
+import LabAssiAsseProjectV02.validation.ValidationException;
 import java.io.*;
 
 public abstract class AbstractFileRepository<ID, E extends HasID<ID>> extends AbstractCrudRepository<ID, E> implements FileRepository<ID, E> {

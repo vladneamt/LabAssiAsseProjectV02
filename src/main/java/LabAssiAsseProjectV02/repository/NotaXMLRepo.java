@@ -1,8 +1,8 @@
-package repository;
+package LabAssiAsseProjectV02.repository;
 
-import domain.Nota;
+import LabAssiAsseProjectV02.domain.Nota;
 import java.time.LocalDate;
-import domain.Nota;
+import LabAssiAsseProjectV02.domain.Nota;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;

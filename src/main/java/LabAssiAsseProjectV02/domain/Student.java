@@ -1,6 +1,6 @@
-package domain;
+package LabAssiAsseProjectV02.domain;
 
-import repository.HasID;
+import LabAssiAsseProjectV02.repository.HasID;
 
 public class Student implements HasID<String> {
     private String idStudent;

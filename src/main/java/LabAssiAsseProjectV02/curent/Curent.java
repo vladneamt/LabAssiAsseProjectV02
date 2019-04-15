@@ -1,6 +1,6 @@
-package curent;
+package LabAssiAsseProjectV02.curent;
 
-import validation.ValidationException;
+import LabAssiAsseProjectV02.validation.ValidationException;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

@@ -1,6 +1,6 @@
-package validation;
+package LabAssiAsseProjectV02.validation;
 
-import domain.Student;
+import LabAssiAsseProjectV02.domain.Student;
 
 public class StudentValidator implements Validator<Student> {
 

@@ -1,15 +1,15 @@
-package service;
+package LabAssiAsseProjectV02.service;
 
-import curent.Curent;
-import domain.Nota;
-import domain.Student;
-import domain.Tema;
+import LabAssiAsseProjectV02.curent.Curent;
+import LabAssiAsseProjectV02.domain.Nota;
+import LabAssiAsseProjectV02.domain.Student;
+import LabAssiAsseProjectV02.domain.Tema;
 
-import repository.*;
-import validation.NotaValidator;
-import validation.StudentValidator;
-import validation.TemaValidator;
-import validation.ValidationException;
+import LabAssiAsseProjectV02.repository.*;
+import LabAssiAsseProjectV02.validation.NotaValidator;
+import LabAssiAsseProjectV02.validation.StudentValidator;
+import LabAssiAsseProjectV02.validation.TemaValidator;
+import LabAssiAsseProjectV02.validation.ValidationException;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -169,7 +169,9 @@ public class Service {
                 nota.setNota(nota.getNota()-2.5);
             }
             else{
-                throw new ValidationException("Studentul nu mai poate preda aceasta tema!");
+                if (predare - tema.getDeadline() > 1) {
+                    throw new ValidationException("Studentul nu mai poate preda aceasta tema!");
+                }
             }
         }
         notaFileRepository.save(nota);

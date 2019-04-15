@@ -1,10 +1,10 @@
-package view;
+package LabAssiAsseProjectV02.view;
 
-import domain.Nota;
-import domain.Student;
-import domain.Tema;
-import service.Service;
-import validation.ValidationException;
+import LabAssiAsseProjectV02.domain.Nota;
+import LabAssiAsseProjectV02.domain.Student;
+import LabAssiAsseProjectV02.domain.Tema;
+import LabAssiAsseProjectV02.service.Service;
+import LabAssiAsseProjectV02.validation.ValidationException;
 import java.time.LocalDate;
 import java.util.InputMismatchException;
 import java.util.Scanner;

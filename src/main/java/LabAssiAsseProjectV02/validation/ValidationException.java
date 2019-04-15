@@ -1,4 +1,4 @@
-package validation;
+package LabAssiAsseProjectV02.validation;
 
 public class ValidationException extends RuntimeException {
     /**

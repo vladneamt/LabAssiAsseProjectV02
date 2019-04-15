@@ -1,4 +1,4 @@
-package repository;
+package LabAssiAsseProjectV02.repository;
 
 import java.util.HashMap;
 import java.util.Map;

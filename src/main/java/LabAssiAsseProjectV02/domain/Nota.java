@@ -1,6 +1,6 @@
-package domain;
+package LabAssiAsseProjectV02.domain;
 
-import repository.HasID;
+import LabAssiAsseProjectV02.repository.HasID;
 
 import java.time.LocalDate;
 

@@ -1,5 +1,5 @@
-package repository;
-import validation.ValidationException;
+package LabAssiAsseProjectV02.repository;
+import LabAssiAsseProjectV02.validation.ValidationException;
 
 /**
  * CRUD operations repository interface
